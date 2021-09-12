@@ -1,5 +1,5 @@
 {
-	"name": "df_transform_cases_death",
+	"name": "df_transform_cases_deaths",
 	"properties": {
 		"type": "MappingDataFlow",
 		"typeProperties": {
