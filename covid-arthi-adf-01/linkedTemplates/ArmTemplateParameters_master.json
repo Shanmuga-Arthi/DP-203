@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "covid-arthi-adf-01"
+		},
+		"ls_adls_covidreportingdl_accountKey": {
+			"value": ""
+		},
+		"ls_asa_covidreportingsa_connectionString": {
+			"value": ""
+		},
+		"ls_adls_covidreportingdl_properties_typeProperties_url": {
+			"value": "https://covidstorageaccarthiadls.dfs.core.windows.net"
+		},
+		"ls_http_ecdc_properties_typeProperties_url": {
+			"value": "@{linkedService().baseurl}"
+		},
+		"tr_daily_popds_properties_typeProperties_scope": {
+			"value": "/subscriptions/d4578364-7f06-4bfe-a6ce-7fb02ee4a428/resourceGroups/covid-analytics-rg/providers/Microsoft.Storage/storageAccounts/covidstorageaccarthi01"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
