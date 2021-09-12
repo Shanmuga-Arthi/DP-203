@@ -1,0 +1,9 @@
+{
+	"name": "covid-arthi-adf-01",
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d3960282-63f9-48bb-8bb1-8e99cc1a9427",
+		"tenantId": "f3a57f51-9eb1-4cbc-b057-4ba0bc662977"
+	}
+}
