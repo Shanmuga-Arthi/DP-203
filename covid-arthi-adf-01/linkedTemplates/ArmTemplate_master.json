@@ -65,6 +65,9 @@
 					},
 					"ls_http_ecdc_properties_typeProperties_url": {
 						"value": "[parameters('ls_http_ecdc_properties_typeProperties_url')]"
+					},
+					"tr_daily_popds_properties_typeProperties_scope": {
+						"value": "[parameters('tr_daily_popds_properties_typeProperties_scope')]"
 					}
 				}
 			},
@@ -83,9 +86,6 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
-					},
-					"tr_daily_popds_properties_typeProperties_scope": {
-						"value": "[parameters('tr_daily_popds_properties_typeProperties_scope')]"
 					}
 				}
 			},
