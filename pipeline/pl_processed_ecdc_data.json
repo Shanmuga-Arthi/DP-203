@@ -1,6 +1,7 @@
 {
 	"name": "pl_processed_ecdc_data",
 	"properties": {
+		"description": "   ",
 		"activities": [
 			{
 				"name": "ExecuteCasesDeaths",
